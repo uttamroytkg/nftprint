@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NFTPrint-Checkout Page</title>
+  
+  <!-- Favicon Icons -->
+  <link rel="icon" href="assets/images/icon.png">
+  <link rel="apple-touch-icon" href="assets/images/icon.png">
+
+
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- Oul Carousel CSS -->
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+  <!-- Start Header Top Area -->
+  <header class="header-area popular-menu-fluid">
+    <div class="container-xl">
+      <div class="popular-menu">
+        <div class="logo-area">
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="logo">
+          </a>
+          <p>Print and delivery any NFT and you pay with crypto</p>
+        </div>
+        <div class="popular-cart-area">
+          <i class="fa-solid fa-magnifying-glass" data-bs-toggle="modal" data-bs-target="#searchModal"></i>
+
+            <!-- Start Search Modal -->
+            <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Search Here:</h5>
+                    <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                  </div>
+                  <div class="modal-body">
+                    <input type="search" placeholder="Search...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Search Modal -->
+
+          <div class="popular-cart">
+            <i class="fa-solid fa-cart-shopping" data-bs-toggle="modal" data-bs-target="#cartModal"></i>
+
+              <!-- Start Cart Modal -->
+              <div class="modal fade cart-modal" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"></h5>
+                      <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <!-- Start Banner Area -->
+                      <div class="card-modal-input">
+                        <div class="search-content search-enter">
+                          <h2>Enter the NFT <span>contract address<span></h2>
+                          <div class="input-xmark">
+                            <input type="search" placeholder="0x60e4d786628fea6478f785a67e704777c86a7c6">
+                            <i class="fa-solid fa-xmark"></i>
+                          </div>
+                          <h4>Token ID</h4>
+                          <input type="text" placeholder="31400">
+                          <button class="btn1" type="submit">PROCESS <i class="fa-solid fa-arrow-down"></i></button>
+                        </div>
+                      </div>
+                      <!-- End Banner Area -->
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- End Cart Modal -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header Top Area -->
+
+
+
+
+  <!-- Start Checkout Area -->
+  <div class="checkout-area">
+    <div class="container-xl">
+      <h2>Your Cart</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="checkout-content">
+
+            <div class="checkout-single">
+              <div class="checkout-img">
+                <img src="assets/images/checkout/checkout.jpg" alt="checkout-img">
+              </div>
+              <div class="checkout-img-content">
+                <div class="delete">
+                  <h4>Wealthy Ape Social Club #5666</h4>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+                <div class="size-area">
+                  <h3><span id="updatePrice">12.03</span> USD</h3>
+                  <div class="btn-group">
+                    <span class="btn minus"><i class="fa-solid fa-minus"></i></span>
+                    <span class="btn" id="number">1</span>
+                    <span class="btn plus"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                </div>
+                <div class="check-ul">
+                  <ul>
+                    <li>Format</li>
+                    <li>Size</li>
+                    <li>Orientation</li>
+                    <li>Frame</li>
+                  </ul>
+                  <ul>
+                    <li>Framed Poster</li>
+                    <li>20x30</li>
+                    <li>Horizontal</li>
+                    <li>Black</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="checkout-single">
+              <div class="checkout-img">
+                <img src="assets/images/checkout/checkout.jpg" alt="checkout-img">
+              </div>
+              <div class="checkout-img-content">
+                <div class="delete">
+                  <h4>Wealthy Ape Social Club #5666</h4>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+                <div class="size-area">
+                  <h3><span id="updatePrice2">12.03</span> USD</h3>
+                  <div class="btn-group">
+                    <span class="btn minus-2"><i class="fa-solid fa-minus"></i></span>
+                    <span class="btn" id="number2">1</span>
+                    <span class="btn plus-2"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                </div>
+                <div class="check-ul">
+                  <ul>
+                    <li>Format</li>
+                    <li>Size</li>
+                    <li>Orientation</li>
+                    <li>Frame</li>
+                  </ul>
+                  <ul>
+                    <li>Framed Poster</li>
+                    <li>20x30</li>
+                    <li>Horizontal</li>
+                    <li>Black</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="checkout-form">
+            <h3>Shipping details</h3>
+            <form action="">
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" placeholder="Enter your first name">
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" placeholder="Enter your last name">
+              <label for="addressline1">Address line 1</label>
+              <input type="text" id="addressline1" placeholder="Enter your address line 1">
+              <label for="addressline2">Address line 2</label>
+              <input type="text" id="addressline2" placeholder="Enter your address line 2">
+              <div class="post-area">
+                <div class="postcode">
+                  <label for="postcode">Posta Code</label>
+                  <input type="text" id="postcode">
+                </div>
+                <div class="city">
+                  <label for="city">City</label>
+                  <input type="text" id="city">
+                </div>
+              </div>
+              <label for="addressline3">Address line 3</label>
+              <input type="text" id="addressline3" placeholder="Enter your address line 3">
+              <label for="country">Country</label>
+              <select class="form-select" name="country" id="country">
+                <option value="us">United States</option>
+                <option value="bd">Bangladesh</option>
+                <option value="ind">India</option>
+              </select>
+              <label for="email">Email (optional)</label>
+              <input type="email" id="email" placeholder="Enter your email address">
+              <button class="btn2" type="submit">CONTINUE <i class="fa-solid fa-arrow-down"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Checkout Area -->
+ 
+
+
+
+  <!-- Start Footer Area -->
+  <footer class="footer-area">
+    <div class="container-xl">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-4">
+          <img src="assets/images/logo.png" alt="logo">
+          <div class="footer-icons">
+            <a href="#"><i class="fa-solid fa-message"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <p>2022 . All Right Reserved</p>
+        </div>
+        <div class="col-lg-6 col-md-8">
+          <div class="footer-ul">
+            <ul>
+              <li><a href="index.html">Home Page</a></li>
+              <li><a href="homeenter.html">Home Enter Page</a></li>
+              <li><a href="contact.html">Contacts Page</a></li>
+              <li><a href="terms.html">Terms Page</a></li>
+            </ul>
+            <ul>
+              <li><a href="popularnft.html">Popular NFT Page</a></li>
+              <li><a href="print.html">Print Page</a></li>
+              <li><a href="printinner.html">Print Inner Page</a></li>
+              <li><a href="checkout.html">Checkout Page</a></li>
+            </ul>
+            <ul>
+              <li><a href="checkoutconfirm.html">Checkout Confirm Page</a></li>
+              <li><a href="checkoutpayment.html">Checkout Payment Page</a></li>
+              <li><a href="checkoutshipping.html">Checkout Shipping Page</a></li>
+              <li><a href="index.html">Index Page</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Area -->
+
+
+
+
+  <!-- Scroll Button -->
+  <div id="scrollBtn">
+    <i class="fa-solid fa-circle-up"></i>
+  </div>
+  <!-- Scroll Button -->
+
+  <!-- jQuery js -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap js -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Oul carousel js -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- Custom js file - Main js - Script js -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

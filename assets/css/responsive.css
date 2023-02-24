@@ -1,0 +1,281 @@
+@media all and (max-width:1200px){
+	.container-xl,
+	.container-fluid{
+		padding: 0 1.5rem;
+	}
+	.print-button .btn3{
+		padding: .8rem 1.1rem;
+	}
+	.print-single-item h4{
+		font-size: 2rem;
+	}
+	.print-img {
+	flex: 0 0 11.5rem;
+}
+}
+
+
+
+@media all and (max-width:991px){
+	.owl-carousel .owl-nav button.owl-next {
+		right: 0.5rem;
+	}
+	.owl-carousel .owl-nav button.owl-prev {
+		right: 6.5rem;
+	}
+	.print-img{
+		flex: 0 0 15.5rem;
+	}
+	h2 {
+		font-size: 45px;
+	}
+	.popular-nfts{
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.frame-btn input {
+		max-width: 9rem;
+		width: 100%;
+		padding: 1.5rem .8rem;
+		font-size: 1.4rem;
+	}
+	.file-btn{
+		justify-content: center;
+	}
+	.second-cart-area .frame-btn input {
+		max-width: 11.3rem;
+		width: 100%;
+	}
+	.cart-vertical input{
+		padding: 1rem 1.5rem;
+	}
+	.cart-input-area select{
+		padding: 1.2rem 1.5rem;
+	}
+	.delete i{
+		width: 3rem;
+	}
+	.checkout-form{
+		float: inherit;
+		margin: auto;
+		margin-bottom: 3rem;
+	}
+	.check-area{
+		float: inherit;
+		margin: auto;
+		margin-bottom: 3rem;
+	}
+	.checkout-content {
+		margin-bottom: 5rem;
+	}
+	.qrcode-area{
+		float: inherit;
+		margin: auto;
+		margin-bottom: 3rem;
+	}
+	.shiping-method{
+		float: inherit;
+		margin: auto;
+		margin-bottom: 3rem;
+	}
+	.terms p{
+		font-size: 1.8rem;
+	}
+}
+
+
+
+@media all and (max-width:767px){
+	h2{
+		font-size: 3.5rem;
+	}
+	.search-content input[type="search"],
+	.search-content input[type="text"]{
+		font-size: 1.6rem;
+	}
+	.btn1{
+		padding: 1.4rem 3rem;
+	}
+	.input-xmark i{
+		top: 2.3rem;
+		font-size: 2rem;
+	}
+	.print-single-item{
+		max-width: 40rem;
+		margin: auto;
+		margin-bottom: 3rem;
+	}
+	.choose-content-area > span{
+		margin-bottom: 3rem;
+	}
+	.choose-content-area h2 {
+		font-size: 48px;
+		line-height: 70px;
+	}
+	.choose-img img{
+		width: 100%;
+		float: none;
+	}
+	.choose-area {
+		padding-bottom: 0rem;
+	}
+	.choose-content-area::before {
+		left: -35rem;
+		bottom: 8rem;
+	}
+	.footer-area img {
+		margin: auto;
+		display: block;
+	}
+	.footer-icons {
+		text-align: center;
+	}
+	.footer-area p{
+		text-align: center;
+		margin-bottom: 4rem;
+	}
+	.footer-ul {
+		justify-items: center;
+	}
+	.popular-nfts{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.cart-img{
+		max-width: 50rem;
+		width: 100%;
+		margin: auto;
+		margin-bottom: 5rem;
+	}
+	.cart-input-area{
+		float: inherit;
+		margin: auto;
+	}
+	.descriptions{
+		margin: auto;
+	}
+	.terms p{
+		font-size: 1.6rem;
+		line-height: 3.6rem;
+	}
+}
+
+
+
+
+@media all and (max-width:575px){
+	.logo-area {
+		text-align: center;
+	}
+	.popular-icon-area h3{
+		margin-bottom: 10rem;
+		text-align: center;
+	}
+	.owl-carousel .owl-nav button.owl-next {
+		right: 50%;
+		transform: translate(5rem);
+	}
+	.owl-carousel .owl-nav button.owl-prev {
+		right: 50%;
+		transform: translate(-1rem);
+	}
+	.print-area h3{
+		text-align: center;
+	}
+	.choose-content-area h2 {
+		font-size: 4rem;
+		line-height: 6rem;
+		text-align: center;
+	}
+	.cryptos-content h3{
+		text-align: center;
+	}
+	.choose-content-area > span{
+		margin: auto;
+		margin-bottom: 3rem;
+	}
+	.choose-content-area .btn1 {
+		margin: auto;
+		max-width: 28rem;
+		display: block;
+		padding: 1.4rem 0rem;
+		text-align: center;
+	}
+	.footer-ul{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.footer-ul ul:last-child{
+		margin-top: 3rem;
+	}
+	.footer-ul ul li a{
+		font-size: 1.4rem;
+	}
+	.search-enter > i {
+		top: 13rem;
+		font-size: 1.8rem;
+	}
+	h2 {
+		font-size: 3.6rem;
+	}
+	.popular-menu{
+		flex-direction: column;
+	}
+	.popular-cart-area {
+		order: -1;
+		justify-content: flex-end;
+		width: 100%;
+		padding-top: 2rem;
+	}
+	.popular-grid .grid-load a{
+		font-size: 1.6rem;
+	}
+	.checkout-single{
+		flex-direction: column;
+	}
+	.checkout-img{
+		margin-bottom: 2rem;
+		max-width: 45rem;
+		width: 100%;
+	}
+	h3{
+		font-size: 2.4rem;
+	}
+	.terms-area:after{
+		left: -30rem;
+	}
+	.terms-area{
+		padding-bottom: 10rem;
+	}
+}
+
+
+
+
+@media all and (max-width:485px){
+	h2{
+		font-size: 3.2rem;
+	}
+	.popular-nfts{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.frame-btn input {
+		max-width: 8rem;
+		width: 100%;
+		padding: 1.2rem .5rem;
+		font-size: 1.3rem;
+	}
+	.file-btn{
+		flex-direction: column;
+	}
+	.file-btn label{
+		max-width: 100%;
+		width: 100%;
+	}
+	.second-cart-area .frame-btn input {
+		max-width: 10.3rem;
+	}
+	.cart-input-area button{
+		width: 100%;
+	}
+	.checkout-form-ul ul:first-child {
+		width: 20rem;
+	}
+}
